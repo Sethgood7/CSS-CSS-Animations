@@ -7,13 +7,15 @@
   width: 20%;
   margin: auto;
   display: inline-block;
+  transform: translate(150px);
+  opacity: 0.5;
 }
 
 /****************************************
 * Transition
 ****************************************/
 
-.transition-demo img {
+.transition-demo {
   margin-bottom: .5em;
   width: 200px;
   height: 200px;
@@ -22,6 +24,7 @@
 }
 
 .transition-demo img:hover {
+filter:none;
 
 }
 
